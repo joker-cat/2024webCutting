@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.font-weight {
+	font-weight: 400;
+}
+
+body {
+	font-family: "Castoro", serif;
+	line-height: 1.5;
+	font-size: 24px;
+}
+
+.container {
+	width: 1296px;
+	margin: 0 auto;
+	padding-top: 160px;
+}
+
+.banner-title {
+	font-size: 128px;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+}
+
+.banner-img {
+	width: 636px;
+	display: block;
+	margin: 0 auto;
+}
+
+h2.banner-title {
+	text-align: right;
+}
+
+
+.introduce p{
+	width: 636px;
+	font-size: 32px;
+	text-align: right;
+}

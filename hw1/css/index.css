@@ -12,8 +12,9 @@ img {
 	vertical-align: middle;
 }
 
-.font-weight {
-	font-weight: 400;
+a{
+	text-decoration: none;
+	color: inherit;
 }
 
 body {
@@ -22,9 +23,41 @@ body {
 	font-size: 24px;
 }
 
+.font-weight {
+	font-weight: 400;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+.mb-16 {
+	margin-bottom: 16px;
+}
+
+.mb-12 {
+	margin-bottom: 12px;
+}
+
+.mb-8 {
+	margin-bottom: 8px;
+}
+
 .container {
-	width: 1296px;
+	width: 100%;
+	max-width: 1296px;
 	margin: 0 auto;
+}
+
+.banner {
 	padding-top: 160px;
 }
 
@@ -40,13 +73,38 @@ body {
 	margin: 0 auto;
 }
 
-h2.banner-title {
-	text-align: right;
+.introduce {
+	padding: 48px 0;
+	font-size: 32px;
+	background: #EFEFEF;
 }
 
+.resume {
+	padding: 80px 0 160px 0;
+}
 
-.introduce p{
-	width: 636px;
-	font-size: 32px;
-	text-align: right;
+h3 {
+	font-size: 40px;
+	color: #AE0000;
+	border-bottom: 3px solid #AE0000
+}
+
+.year {
+	font-size: 20px;
+	font-style: italic;
+	color: #949494;
+}
+
+.icon-group {
+	padding: 64px 0;
+	background-color: #000000;
+	text-align: center;
+}
+
+.icon-group li {
+	display: inline-block;
+}
+
+.icon-group li:nth-of-type(2) {
+	margin: 0 40px;
 }

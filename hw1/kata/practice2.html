@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../reset.css">
+  <link rel="stylesheet" href="./practice2.css">
+  <title>練習2</title>
+  <style>
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    img {
+      display: block;
+      vertical-align: middle;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .mb-24 {
+      margin-bottom: 24px;
+    }
+
+    .me-20 {
+      margin-right: 20px;
+    }
+
+    .pe-20 {
+      padding-right: 20px;
+    }
+
+    .d-flex {
+      display: flex;
+    }
+    .section-width {
+      width: 640px;
+    }
+
+    .article-title {
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .article-word {
+      width: 288px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    footer {
+      display: flex;
+      height: 120px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    footer p {
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="section-width">
+    <div class="container d-flex">
+      <ul class="mb-24 pe-20">
+        <li class="d-flex mb-24">
+          <img class="me-20" src="https://fakeimg.pl/96x96/">
+          <div>
+            <h2 class="article-title">title1</h2>
+            <p class="article-word">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime maiores vel dolor
+            </p>
+          </div>
+        </li>
+        <li class="d-flex">
+          <img class="me-20" src="https://fakeimg.pl/96x96/">
+          <div>
+            <h2 class="article-title">title2</h2>
+            <p class="article-word">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime maiores vel dolor
+            </p>
+          </div>
+        </li>
+      </ul>
+      <img src="https://fakeimg.pl/216x216/">
+    </div>
+    <footer>
+      <p>我是表尾</p>
+    </footer>
+  </section>
+  <!--
+    建議門檻：練 5 遍，1 小時內完成
+    專業門檻：10 分內完成
+    做完後的成果：寬度要剛好 640、高度 360
+    圖片可用*假圖產生器* https://fakeimg.pl/
+
+    準備
+    <img src="https://fakeimg.pl/96x96/">
+    <img src="https://fakeimg.pl/216x216/">
+    1.上面的黑色 border 線條僅示意，此題目不需要使用 border 語法
+    2.文字段落部分，請使用一個 p 段落，寫假字到三行即可，不需用到 br
+  -->
+</body>
+
+</html>

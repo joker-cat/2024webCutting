@@ -3,3 +3,4 @@
 ![image](/hw1/image/hw1_1920_1080.png)
 
 ## [kata_practice1](https://youtu.be/-ktvl0mGcI4)
+## [kata_practice2](https://youtu.be/-UtJHQHEEUQ)

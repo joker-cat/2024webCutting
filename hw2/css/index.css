@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro:ital@0;1&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container{
+  border: 1px solid #d61515;
+}
+.gap-24px {
+  gap: 24px;
+}
+.margin-padding-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.text-white {
+  color: #D1D1D1;
+}
+
+.nav-routing {
+  padding: 40px 0;
+}
+
+.max-width-1296 {
+  max-width: 1296px;
+}
+
+.header-py {
+  padding: 72px 0 32px 0;
+}

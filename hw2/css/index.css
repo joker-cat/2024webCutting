@@ -23,19 +23,17 @@ a {
   color: inherit;
 }
 
-.container{
-  border: 1px solid #d61515;
-}
-.gap-24px {
-  gap: 24px;
-}
-.margin-padding-0 {
-  margin: 0;
-  padding: 0;
+.text-d1d1d1 {
+  color: #D1D1D1;
 }
 
-.text-white {
-  color: #D1D1D1;
+.text-fff {
+  color: #fff;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
 }
 
 .nav-routing {
@@ -48,4 +46,13 @@ a {
 
 .header-py {
   padding: 72px 0 32px 0;
+}
+
+.contact-me-pt {
+  padding-top: 232px;
+}
+
+.h1-william {
+  font-size: 128px;
+  color: #00FFA3;
 }

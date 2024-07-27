@@ -56,3 +56,28 @@ a {
   font-size: 128px;
   color: #00FFA3;
 }
+
+.bg-set-introduction {
+  padding-top: 160px;
+  background-image: url('../image/background-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #15161D;
+}
+
+.introduction {
+  width: 526px;
+}
+
+.h2-mb-36px {
+  margin-bottom: 36px;
+}
+
+.intro {
+  padding-bottom: 32px;
+}
+
+.introduction-img-group {
+  width: 746px;
+}

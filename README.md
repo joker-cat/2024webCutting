@@ -6,4 +6,4 @@
 ## [kata_practice2](https://youtu.be/-UtJHQHEEUQ)
 
 ## [第二週講義連結](https://chalk-freedom-ec6.notion.site/60402582d916417ea066f37eaccb1836?pvs=4)
-![image](/hw1/image/hw2_1920_1080.png)
+![image](/hw2/image/hw2_1920_1080.png)

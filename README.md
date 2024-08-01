@@ -7,3 +7,5 @@
 
 ## [第二週講義連結](https://chalk-freedom-ec6.notion.site/60402582d916417ea066f37eaccb1836?pvs=4)
 ![image](/hw1/image/hw2_1920_1080.png)
+
+## [第三週講義連結](https://chalk-freedom-ec6.notion.site/df9c89e87e764aef9ac5ff280ef289a6)

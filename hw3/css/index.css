@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* google-icon */
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
 
 /* 字型 */
 .roboto-regular {
@@ -100,6 +109,27 @@ textarea {
   margin-bottom: 48px;
 }
 
+.me-16px {
+  margin-right: 16px;
+}
+
+.me-48px {
+  margin-right: 48px;
+}
+
+.mx-32px {
+  margin: 0 32px;
+}
+
+.my-32px {
+  margin: 32px 0;
+  border: 1px solid #fff;
+}
+
+.p-6px {
+  padding: 6px;
+}
+
 /* 字體顏色 */
 .color-fff {
   color: #FFF;
@@ -118,12 +148,18 @@ textarea {
 }
 
 /* 物件大小 */
+.w-24px {
+  width: 24px;
+}
+
+.w-48px {
+  width: 48px;
+}
+
 .w-100px {
   width: 100px;
 }
-.w-24px{
-  width: 24px;
-}
+
 /* 背景顏色 */
 .bg-aa0601 {
   background-color: #AA0601;
@@ -177,6 +213,10 @@ textarea {
   min-height: 136px;
 }
 
-.form-checkbtn{
+.form-checkbtn {
   padding: 16px 0;
+}
+
+.footer-py {
+  padding: 48px 0 32px 0;
 }

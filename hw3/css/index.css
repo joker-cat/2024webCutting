@@ -14,11 +14,18 @@
   font-style: normal;
 }
 
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .roboto-black-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: italic;
 }
+
 /* 字型結束 */
 
 *,
@@ -41,7 +48,17 @@ img {
   vertical-align: middle;
 }
 
+input,
+textarea {
+  border: 1px solid #000000;
+  padding: 6px 12px;
+}
+
 /* 字體大小 */
+.fs-14px {
+  font-size: 14px;
+}
+
 .fs-20px {
   font-size: 20px;
 }
@@ -91,14 +108,22 @@ img {
 .color-650300 {
   color: #650300;
 }
-.color-aa0601{
+
+.color-aa0601 {
   color: #AA0601;
 }
+
+.color-707070 {
+  color: #707070;
+}
+
 /* 物件大小 */
 .w-100px {
   width: 100px;
 }
-
+.w-24px{
+  width: 24px;
+}
 /* 背景顏色 */
 .bg-aa0601 {
   background-color: #AA0601;
@@ -107,9 +132,11 @@ img {
 .bg-fbf2f2 {
   background-color: #FBF2F2;
 }
-.bg-fff{
+
+.bg-fff {
   background-color: #FFF;
 }
+
 /* -------------------- */
 
 .navbar {
@@ -133,10 +160,23 @@ img {
   padding: 80px 0;
 }
 
-.section-index-bg{
+.section-index-bg {
   background: url('../image/index-bg.png') no-repeat center / cover;
 }
 
-.double-a,.youth{
+.double-a,
+.youth {
   padding: 8px 0;
+}
+
+.min-h-72px {
+  min-height: 72px;
+}
+
+.min-h-136px {
+  min-height: 136px;
+}
+
+.form-checkbtn{
+  padding: 16px 0;
 }

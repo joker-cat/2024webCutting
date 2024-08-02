@@ -85,7 +85,7 @@ img {
 
 /* 字體顏色 */
 .color-fff {
-  color: #fff;
+  color: #FFF;
 }
 
 .color-650300 {
@@ -107,7 +107,9 @@ img {
 .bg-fbf2f2 {
   background-color: #FBF2F2;
 }
-
+.bg-fff{
+  background-color: #FFF;
+}
 /* -------------------- */
 
 .navbar {
@@ -129,4 +131,12 @@ img {
 
 .section-py-80px {
   padding: 80px 0;
+}
+
+.section-index-bg{
+  background: url('../image/index-bg.png') no-repeat center / cover;
+}
+
+.double-a,.youth{
+  padding: 8px 0;
 }

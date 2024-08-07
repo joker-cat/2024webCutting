@@ -204,6 +204,8 @@ textarea {
   width: 50%;
 }
 
+
+
 .double-a,
 .youth {
   padding: 8px 0;
@@ -298,4 +300,10 @@ textarea {
   .header-bg {
     background: url('../image/home-header-sm.png') no-repeat center / cover;
   }
-}
+  .fs-16-768px{
+    font-size: 16px;
+  }
+  .fs-24-768px{
+    font-size: 24px;
+  }
+} 

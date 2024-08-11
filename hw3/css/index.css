@@ -204,8 +204,6 @@ textarea {
   width: 50%;
 }
 
-
-
 .double-a,
 .youth {
   padding: 8px 0;
@@ -224,7 +222,9 @@ textarea {
 .min-h-136px {
   min-height: 136px;
 }
-
+.py-12-768px{
+  padding: 12px 0 !important;
+}
 .form-checkbtn {
   padding: 16px 0;
 }
@@ -305,5 +305,8 @@ textarea {
   }
   .fs-24-768px{
     font-size: 24px;
+  }
+  .mb-8-768px{
+    margin-bottom: 8px;
   }
 } 

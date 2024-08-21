@@ -67,9 +67,18 @@
 
 @media (max-width: 768px) {
   .fs-16-768px {
-    font-size: 16px;
+    font-size: 16px !important;
+  }
+  .w-24px {
+    width: 24px;
   }
   .mb-8-768px{
     margin-bottom: 8px;
+  }
+  .footer-icon-mx{
+    margin: 0 8px;
+  }
+  .my-md-24px {
+    margin: 24px 0;
   }
 }

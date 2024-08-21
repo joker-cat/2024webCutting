@@ -65,11 +65,15 @@
   margin: 0 32px;
 }
 
+.icon-size {
+  width: 48px;
+}
+
 @media (max-width: 768px) {
   .fs-16-768px {
     font-size: 16px !important;
   }
-  .w-24px {
+  .icon-size {
     width: 24px;
   }
   .mb-8-768px{

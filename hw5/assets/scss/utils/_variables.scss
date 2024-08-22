@@ -46,6 +46,7 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$grey:    #212529 !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -63,7 +64,8 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "grey":       $grey
 ) !default;
 // scss-docs-end colors-map
 
@@ -176,6 +178,16 @@ $cyan-700: shade-color($cyan, 40%) !default;
 $cyan-800: shade-color($cyan, 60%) !default;
 $cyan-900: shade-color($cyan, 80%) !default;
 
+$grey-100: tint-color($grey, 80%) !default;
+$grey-200: tint-color($grey, 60%) !default;
+$grey-300: tint-color($grey, 40%) !default;
+$grey-400: tint-color($grey, 20%) !default;
+$grey-500: $grey !default;
+$grey-600: shade-color($grey, 20%) !default;
+$grey-700: shade-color($grey, 40%) !default;
+$grey-800: shade-color($grey, 60%) !default;
+$grey-900: shade-color($grey, 80%) !default;
+
 $blues: (
   "blue-100": $blue-100,
   "blue-200": $blue-200,
@@ -186,6 +198,18 @@ $blues: (
   "blue-700": $blue-700,
   "blue-800": $blue-800,
   "blue-900": $blue-900
+) !default;
+
+$greys: (
+  "grey-100": $grey-100,
+  "grey-200": $grey-200,
+  "grey-300": $grey-300,
+  "grey-400": $grey-400,
+  "grey-500": $grey-500,
+  "grey-600": $grey-600,
+  "grey-700": $grey-700,
+  "grey-800": $grey-800,
+  "grey-900": $grey-900
 ) !default;
 
 $indigos: (
@@ -306,6 +330,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$grey:          $grey !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -317,7 +342,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "grey":       $grey,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -328,6 +354,7 @@ $success-text-emphasis:   shade-color($success, 60%) !default;
 $info-text-emphasis:      shade-color($info, 60%) !default;
 $warning-text-emphasis:   shade-color($warning, 60%) !default;
 $danger-text-emphasis:    shade-color($danger, 60%) !default;
+$grey-text-emphasis:      shade-color($grey, 60%) !default;
 $light-text-emphasis:     $gray-700 !default;
 $dark-text-emphasis:      $gray-700 !default;
 // scss-docs-end theme-text-variables
@@ -339,6 +366,7 @@ $success-bg-subtle:       tint-color($success, 80%) !default;
 $info-bg-subtle:          tint-color($info, 80%) !default;
 $warning-bg-subtle:       tint-color($warning, 80%) !default;
 $danger-bg-subtle:        tint-color($danger, 80%) !default;
+$grey-bg-subtle:          tint-color($grey, 80%) !default;
 $light-bg-subtle:         mix($gray-100, $white) !default;
 $dark-bg-subtle:          $gray-400 !default;
 // scss-docs-end theme-bg-subtle-variables
@@ -350,6 +378,7 @@ $success-border-subtle:   tint-color($success, 60%) !default;
 $info-border-subtle:      tint-color($info, 60%) !default;
 $warning-border-subtle:   tint-color($warning, 60%) !default;
 $danger-border-subtle:    tint-color($danger, 60%) !default;
+$grey-border-subtle:    tint-color($grey, 60%) !default;
 $light-border-subtle:     $gray-200 !default;
 $dark-border-subtle:      $gray-500 !default;
 // scss-docs-end theme-border-subtle-variables

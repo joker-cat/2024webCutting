@@ -1,3 +1,25 @@
-.index-title {
-  font-size: 100px;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.main{
+  width: 1280px;
+  min-height: 500px;
+  .aside-width{
+    width: 296px;
+    background: #F8F9FA 0% 0% no-repeat padding-box;
+    .logo{
+      padding: 32px;
+    }
+
+  }
+  
+  .section-list{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    
+  }
 }

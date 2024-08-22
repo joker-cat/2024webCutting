@@ -20,6 +20,14 @@
   
   .section-list{
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    
+    .section-header-py{
+      padding: 32px;
+      h2{
+        color: #212529;
+      }
+      .add-icon-color{
+        color: #198754;
+      }
+    }
   }
 }
